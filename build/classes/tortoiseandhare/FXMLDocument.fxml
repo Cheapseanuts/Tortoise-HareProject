@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="416.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tortoiseandhare.FXMLDocumentController">
+    <children>
+      <TextArea id="txtFranklin" fx:id="txtFranklin" editable="false" layoutX="278.0" layoutY="52.0" prefHeight="338.0" prefWidth="200.0" />
+      <TextArea id="txtBugs" fx:id="txtBugs" editable="false" layoutX="36.0" layoutY="52.0" prefHeight="338.0" prefWidth="200.0" />
+      <Label layoutX="36.0" layoutY="26.0" text="Bugs:" />
+      <Label layoutX="278.0" layoutY="26.0" text="Franklin:" />
+    </children>
+</AnchorPane>
